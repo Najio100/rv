@@ -1,0 +1,27 @@
+* {
+transition: 0.6s cubic-bezier(1,3,0,2) ;
+font-family: sans-serif
+}
+Body {
+Background : linear-gradient(#000,#355);
+Color:white;
+}
+Body  * {
+Padding: 10px;
+}
+Div {
+Border-top: 10px solid rgba(100%,100%,100%,0.8);
+Border-radius: 5px;
+Backdrop-filter: blur(20px);
+Background: gray;
+Box-shadow: 0 10px 40px -14px rgba(80%,100%,100%,0.8);
+}
+Button , input {
+Background: rgba(100%,100%,100%,0.6);
+Border:0;
+Border-radius: 2px
+}
+Body *:hover {
+-webkit-transform: scale(0.97,0.97);
+Box-shadow: 0 10px 40px -14px rgba(80%,100%,100%,0.8) inset;
+}
