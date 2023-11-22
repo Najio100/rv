@@ -34,7 +34,17 @@
       <h1> Result </h1>
       <p> you thought of <b></b> </p>
     </div>
-  <script src="colors.js"></script>
+  <script>
+    var n = 0;
+while (n < 80) {
+var r = [30,40,50];
+r[0] += n * 1;
+r[1] += n * 20;
+r[2] += n * 20;
+$("body > *").eq(n).css("background-color","rgb("+r+")");
+n++
+}
+  </script>
   <script src="appScript.js"></script> 
   </body>
 </html>
