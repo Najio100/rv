@@ -4,6 +4,7 @@ font-family: sans-serif
 }
 Body {
 Background : linear-gradient(#000,#355);
+height:100%;
 Color:white;
 }
 Body  * {
